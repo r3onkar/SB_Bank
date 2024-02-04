@@ -20,9 +20,31 @@ public class AccountServiceImpl  implements AccountService {
 
 		Account account = AccountMapper.maptoAccount(accountDto);
 		Account savedAccount = accountRepository.save(account);
-		
-		
 		return AccountMapper.maptoAccountDto(savedAccount);
+	}
+
+	@Override
+	public AccountDto getAllAccounts() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public AccountDto getAccountById(long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public AccountDto saveAccount(AccountDto account) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void deleteAccount(long id) {
+		// TODO Auto-generated method stub
+		
 	}
 
 

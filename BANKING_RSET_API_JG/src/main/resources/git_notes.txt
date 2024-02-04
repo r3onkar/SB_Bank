@@ -1,0 +1,168 @@
+
+Onkar@DESKTOP-Q42ILPQ MINGW64 /d/bank1
+$ git init
+Initialized empty Git repository in D:/bank1/.git/
+
+Onkar@DESKTOP-Q42ILPQ MINGW64 /d/bank1 (master)
+$ git clone git@github.com:r3onkar/SB_Bank.git
+Cloning into 'SB_Bank'...
+warning: You appear to have cloned an empty repository.
+
+Onkar@DESKTOP-Q42ILPQ MINGW64 /d/bank1 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        SB_Bank/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Onkar@DESKTOP-Q42ILPQ MINGW64 /d/bank1 (master)
+$ dir
+SB_Bank
+
+Onkar@DESKTOP-Q42ILPQ MINGW64 /d/bank1 (master)
+$ cd SB_Bank
+
+Onkar@DESKTOP-Q42ILPQ MINGW64 /d/bank1/SB_Bank (main)
+$ git status
+On branch main
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+Onkar@DESKTOP-Q42ILPQ MINGW64 /d/bank1/SB_Bank (main)
+$ cd  ..
+
+Onkar@DESKTOP-Q42ILPQ MINGW64 /d/bank1 (master)
+$ dir
+SB_Bank
+
+Onkar@DESKTOP-Q42ILPQ MINGW64 /d/bank1 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        BANKING_RSET_API_JG/
+        SB_Bank/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Onkar@DESKTOP-Q42ILPQ MINGW64 /d/bank1 (master)
+$ git add .
+warning: in the working copy of 'BANKING_RSET_API_JG/.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'BANKING_RSET_API_JG/.mvn/wrapper/maven-wrapper.properties', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'BANKING_RSET_API_JG/mvnw', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'BANKING_RSET_API_JG/mvnw.cmd', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'BANKING_RSET_API_JG/pom.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'BANKING_RSET_API_JG/src/main/java/com/banking/BankingRsetApiJgApplication.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'BANKING_RSET_API_JG/src/main/java/com/banking/controller/AccountController.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'BANKING_RSET_API_JG/src/main/resources/application.properties', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'BANKING_RSET_API_JG/src/test/java/com/banking/BankingRsetApiJgApplicationTests.java', LF will be replaced by CRLF the next time Git touches it
+error: 'SB_Bank/' does not have a commit checked out
+fatal: adding files failed
+
+Onkar@DESKTOP-Q42ILPQ MINGW64 /d/bank1 (master)
+$ git config core.autocrlf true
+
+Onkar@DESKTOP-Q42ILPQ MINGW64 /d/bank1 (master)
+$ git add .
+error: 'SB_Bank/' does not have a commit checked out
+fatal: adding files failed
+
+Onkar@DESKTOP-Q42ILPQ MINGW64 /d/bank1 (master)
+$ git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+
+Onkar@DESKTOP-Q42ILPQ MINGW64 /d/bank1 (master)
+$ dir
+SB_Bank
+
+Onkar@DESKTOP-Q42ILPQ MINGW64 /d/bank1 (master)
+$ cd SB_Bank
+
+Onkar@DESKTOP-Q42ILPQ MINGW64 /d/bank1/SB_Bank (main)
+$ git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        BANKING_RSET_API_JG/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Onkar@DESKTOP-Q42ILPQ MINGW64 /d/bank1/SB_Bank (main)
+$ git add .
+warning: in the working copy of 'BANKING_RSET_API_JG/.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'BANKING_RSET_API_JG/.mvn/wrapper/maven-wrapper.properties', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'BANKING_RSET_API_JG/mvnw', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'BANKING_RSET_API_JG/mvnw.cmd', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'BANKING_RSET_API_JG/pom.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'BANKING_RSET_API_JG/src/main/java/com/banking/BankingRsetApiJgApplication.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'BANKING_RSET_API_JG/src/main/java/com/banking/controller/AccountController.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'BANKING_RSET_API_JG/src/main/resources/application.properties', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'BANKING_RSET_API_JG/src/test/java/com/banking/BankingRsetApiJgApplicationTests.java', LF will be replaced by CRLF the next time Git touches it
+
+Onkar@DESKTOP-Q42ILPQ MINGW64 /d/bank1/SB_Bank (main)
+$ git config core.autocrlf true
+
+Onkar@DESKTOP-Q42ILPQ MINGW64 /d/bank1/SB_Bank (main)
+$ git add .
+
+Onkar@DESKTOP-Q42ILPQ MINGW64 /d/bank1/SB_Bank (main)
+$ git commit -m "first commit"
+[main (root-commit) d0bc654] first commit
+ 18 files changed, 894 insertions(+)
+ create mode 100644 BANKING_RSET_API_JG/.gitignore
+ create mode 100644 BANKING_RSET_API_JG/.mvn/wrapper/maven-wrapper.jar
+ create mode 100644 BANKING_RSET_API_JG/.mvn/wrapper/maven-wrapper.properties
+ create mode 100644 BANKING_RSET_API_JG/mvnw
+ create mode 100644 BANKING_RSET_API_JG/mvnw.cmd
+ create mode 100644 BANKING_RSET_API_JG/pom.xml
+ create mode 100644 BANKING_RSET_API_JG/src/main/java/com/banking/BankingRsetApiJgApplication.java
+ create mode 100644 BANKING_RSET_API_JG/src/main/java/com/banking/Dto/AccountDto.java
+ create mode 100644 BANKING_RSET_API_JG/src/main/java/com/banking/config/AppConfig.java
+ create mode 100644 BANKING_RSET_API_JG/src/main/java/com/banking/config/SecurityConfig.java
+ create mode 100644 BANKING_RSET_API_JG/src/main/java/com/banking/controller/AccountController.java
+ create mode 100644 BANKING_RSET_API_JG/src/main/java/com/banking/entity/Account.java
+ create mode 100644 BANKING_RSET_API_JG/src/main/java/com/banking/mapper/AccountMapper.java
+ create mode 100644 BANKING_RSET_API_JG/src/main/java/com/banking/repository/AccountRepository.java
+ create mode 100644 BANKING_RSET_API_JG/src/main/java/com/banking/service/AccountService.java
+ create mode 100644 BANKING_RSET_API_JG/src/main/java/com/banking/serviceImple/AccountServiceImpl.java
+ create mode 100644 BANKING_RSET_API_JG/src/main/resources/application.properties
+ create mode 100644 BANKING_RSET_API_JG/src/test/java/com/banking/BankingRsetApiJgApplicationTests.java
+
+Onkar@DESKTOP-Q42ILPQ MINGW64 /d/bank1/SB_Bank (main)
+$ git remote add origin git@github.com:r3onkar/SB_Bank.git
+error: remote origin already exists.
+
+Onkar@DESKTOP-Q42ILPQ MINGW64 /d/bank1/SB_Bank (main)
+$ git push -u origin main
+Enumerating objects: 41, done.
+Counting objects: 100% (41/41), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (30/30), done.
+Writing objects: 100% (41/41), 66.02 KiB | 279.00 KiB/s, done.
+Total 41 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:r3onkar/SB_Bank.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+Onkar@DESKTOP-Q42ILPQ MINGW64 /d/bank1/SB_Bank (main)

@@ -19,24 +19,30 @@ import org.springframework.web.bind.annotation.RequestBody;
 @RequestMapping("/api/account")
 public class AccountController {
 
-	
+	@Autowired
 	private AccountRepository accountRepository;
-	
+
 	@Autowired
 	private AccountService accountService;
 
-//	@Autowired
-//	public AccountController() {
-//		super();
-//		this.accountService = accountService;
-//	}
-	
+	@Autowired
+	private AccountDto accountDto;
+
+	@Autowired
+
+
 	// Add account rest api
-	
+
 	@PostMapping("/add")
 	public ResponseEntity<AccountDto>addAccount( AccountDto accountDto ) {
 		return new ResponseEntity<>(accountService.accountCreated(accountDto),HttpStatus.CREATED);
 	}
-	
-	
+
+	public AccountController(AccountRepository accountRepository, AccountService accountService) {
+		super();
+		this.accountRepository = accountRepository;
+		this.accountService = accountService;
+	}
+
+
 }
