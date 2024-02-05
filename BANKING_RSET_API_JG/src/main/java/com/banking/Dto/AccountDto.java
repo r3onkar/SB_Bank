@@ -35,4 +35,9 @@ public class AccountDto {
 	public void setBalance(double balance) {
 		this.balance = balance;
 	}
+
+	public AccountDto map(AccountDto accountDto) {
+		// TODO Auto-generated method stub
+		return accountDto;
+	}
 }
