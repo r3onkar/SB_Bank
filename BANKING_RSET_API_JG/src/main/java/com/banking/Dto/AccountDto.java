@@ -1,9 +1,12 @@
 package com.banking.Dto;
 
+import org.springframework.stereotype.Component;
+
 import jakarta.persistence.Column;
 import lombok.Data;
 
 @Data
+@Component
 public class AccountDto {
 
 	private Long id;
